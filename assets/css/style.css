@@ -25,3 +25,16 @@ h1, h2 {
     font-size: 280%;
     text-decoration: none;
 }
+
+/* navigation links */
+#menu {
+    letter-spacing: 4px;
+    font-size: 110%;
+    float: right;
+}
+
+#menu li {
+    float: left;
+    margin-right: 2em;
+    list-style-type: none;
+}
