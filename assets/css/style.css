@@ -130,7 +130,6 @@ h1, h2 {
 #center-about {
     width: 33%;
     margin: 0 auto; /* to center the div and the div must be the last div called */
-    background-color: yellow;
 }
 
 hr {
@@ -161,4 +160,27 @@ hr {
 
 .right-about-heading p {
     text-align: right;
+}
+
+#welcome {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%; /*to form a circle,only works with div that has equal width and height */
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
